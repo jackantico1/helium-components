@@ -14,12 +14,12 @@ function Page() {
             <a href='/'>Home</a>
         </div>
       <Cart checkoutUrl="/checkout">
-      <CartButton />
-      <AddToCartButton
-        purchasableType={EcommItemType.Product}
-        purchasable={{id:'b9c7347-ac9b-4e16-8538-6b928a8e425f', priceInCents:1000}}
-      >Add to Cart</AddToCartButton>
-    </Cart>
+        <CartButton />
+        <AddToCartButton
+          purchasableType={EcommItemType.Product}
+          purchasable={{id:'f57682e2-5a4b-4fbe-907d-7fd1aa5910c0', priceInCents:2000}}
+        >Add to Cart</AddToCartButton>
+      </Cart>
     </>
   );
 }
