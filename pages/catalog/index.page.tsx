@@ -19,7 +19,8 @@ function Page() {
             <h1><a href='/catalog/layout-id'>Layout Id</a></h1>
         </div>
         <CatalogProvider config={config}>
-            <Catalog onAddedToQueue={(item) => Promise.resolve()} />
+            <Catalog 
+                onAddedToQueue={(item) => Promise.resolve()} />
         </CatalogProvider>
     </>
   );

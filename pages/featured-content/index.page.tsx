@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { gql, useQuery, useMutation } from '@apollo/client';
-import { FeaturedContent, ContentTileStandardLayout, FeaturedContentContentItem, FeaturedContentStaticContentItem } from '@thoughtindustries/featured-content';
+import { FeaturedContent, ContentTileStandardLayout, FeaturedContentContentItem } from '@thoughtindustries/featured-content';
 
 function Page() {
 
